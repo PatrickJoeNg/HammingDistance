@@ -22,11 +22,15 @@ namespace ConsoleTesting
         }
         public static void Main(string[] args)
         {
+            //config strings
             String str1 = "PatrickNg";
             String str2 = "gNkcirtaP";
+
             Console.WriteLine("This program calculates the Hamming Distance between two strings.\n");
+
             Console.WriteLine("The Hamming Distance is the number of different symbols\n of characters" +
                 " between two strings.\n");
+
             Console.WriteLine("The Hamming Distance of given strings is: " + HammingDistance(str1, str2));
         }
     }
